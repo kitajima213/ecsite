@@ -58,7 +58,7 @@ public class ItemSearchDAO {
 	 * 商品IDを元にDBに接続し商品情報を取得するメソッド
 
 	 */
-	public ArrayList<BuyItemDTO> selectAll(String name){
+	public ArrayList<BuyItemDTO> selectAll(String searchName){
 		int i = 1;
 		DBConnector db = new DBConnector();
 		Connection con = db.getConnection();
@@ -69,7 +69,7 @@ public class ItemSearchDAO {
 
 		try{
 			PreparedStatement ps = con.prepareStatement(sql) ;
-			ps.setString(1, "%" + name + "%");
+			ps.setString(1, "%" + searchName + "%");
 			ResultSet rs = ps.executeQuery();
 			while (rs.next()){
 				BuyItemDTO dto  = new BuyItemDTO();
