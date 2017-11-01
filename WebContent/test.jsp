@@ -16,7 +16,7 @@
 	<title>test</title>
 	<link rel="stylesheet" type="text/css" href="/ecsite/CSS/style.css">
 	<style type="text/css">
-	/* ========TAG LAYOUT======== */
+
 
 
 		table {
@@ -51,6 +51,8 @@
 		</div>
 
 <img src="/ecsite/img/PS4_1.jpg">
+test<br>
+<img src="/ecsite/img/PS4_3.jpg">
 	</div>
 
 </body>
