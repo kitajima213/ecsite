@@ -53,7 +53,6 @@
 
 		.item-type {
 			text-align:left;
-
 		}
 
 		.item-detail {

@@ -67,5 +67,9 @@ INSERT INTO item_info_transaction(id, item_type, img, item_name, item_detail, it
 (11, "Switch", "/ecsite/img/Switch_2.jpg", "スーパーマリオ オデッセイ", "Nintendo Switch向けの3Dマリオシリーズ完全新作で、GCの『スーパーマリオサンシャイン』以来実に15年ぶりとなる、箱庭探索型の3Dアクションゲーム", 5800, 20),
 (12, "Switch", "/ecsite/img/Switch_3.jpg", "Splatoon2", "前作『Splatoon』の基本的な要素はそのままにSwitch向けに作られたシリーズ2作目となる続編", 5800, 20),
 (13, "Wiiu", "/ecsite/img/Wiiu_1.jpg", "Splatoon", "プレイヤーキャラであるインクリングを操作し、ブキを用いて地面を塗ったり敵を倒して戦う三人称視点のシューティングゲーム（TPS）。", 5800, 20),
-(14, "3ds", "/ecsite/img/3ds_1.jpg", "Hey! ピクミン", "ピクミンシリーズ初の横スクロールアクションのスピンオフ作品。", 4800, 20);
+(14, "Wiiu", "/ecsite/img/Wiiu_2.jpg", "ポッ拳 POKKÉN TOURNAMENT", "ポケットモンスターシリーズと鉄拳シリーズのコラボレーション作品の家庭用移植版。", 5800, 20),
+(15, "Wiiu", "/ecsite/img/Wiiu_3.jpg", "New スーパーマリオブラザーズ U", "スーパーマリオシリーズの中でも横スクロール・サイドビューのジャンプアクションゲームである『スーパーマリオブラザーズ』の流れを汲む「2Dマリオ」・「王道マリオ」と呼ばれる作品", 5800, 20),
+(16, "3ds", "/ecsite/img/3ds_1.jpg", "Hey! ピクミン", "ピクミンシリーズ初の横スクロールアクションのスピンオフ作品。", 4800, 20),
+(17, "3ds", "/ecsite/img/3ds_2.jpg", "スーパーマリオ 3Dランド", "3Dアクションだが、Bダッシュやゴール地点のポール及び旗、ちびマリオの存在など要素・ゲーム性ともに2Dマリオの感覚で遊べる3Dマリオ。", 4800, 20),
+(18, "3ds", "/ecsite/img/3ds_3.jpg", "真・女神転生IV", "移植版を除き、ナンバリングタイトル初の携帯ハードで、シリーズ伝統のマルチシナリオのRPG。", 5800, 20);
 INSERT INTO login_user_transaction(login_id, login_pass, user_name) VALUES("test", "111", "kitajima"),("a", "a", "a");
