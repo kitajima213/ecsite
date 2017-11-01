@@ -1,0 +1,148 @@
+@CHARSET "UTF-8";
+
+body {
+	margin:0;
+	padding:0;
+	line-height:1.6;
+	letter-spacing:1px;
+	font-family:Verdana, Helvetica, sans-serif;
+	font-size:17px;
+	color:#333;
+	background:#EFF8F9;
+}
+
+#main {
+	float:left;
+	width: 75%;
+	text-align: center;
+}
+
+#sub {
+	position:relative;
+	top:70px;
+	float:left;
+	width:25%;
+	padding-right:30px;
+	padding-left:10px;
+	box-sizing: border-box;
+	background:#EDF3FF;
+}
+
+#sub h3 {
+	font-size:20px;
+	border-bottom: 2px dotted gray;
+	color:gray;
+}
+
+#top {
+	position:relative;
+
+	top:0px;
+	width:550px;
+
+	margin:35px auto;
+	font-size:20px;
+	border:1px solid #333;
+}
+
+footer {
+	clear:left;
+	font-size:12px;
+	height:50px;
+	background:#EFF8F9;
+	position:relative;
+	top:150px;
+	text-align:center;
+	color:gray;
+}
+
+
+#pr1 {
+
+	width: 25%;
+	height: 40px;
+	float:left;
+	border-bottom-left-radius: 100px 50px;
+	border-bottom-right-radius: 100px 50px;
+	background-color: #F0EFEF;
+
+}
+
+#pr2 {
+	width: 25%;
+	height: 40px;
+	float:left;
+	border-top-left-radius: 100px 50px;
+	border-top-right-radius: 100px 50px;
+	background-color: #F0EFEF;
+	text-align:center;
+}
+
+.EM{
+	color:red;
+	font-size:15px;
+}
+
+#text-link {
+	font-size:14px;
+	display: inline-block;
+	text-align: right;
+}
+
+ul{
+	list-style:none;
+
+}
+
+li {
+	font-size:15px;
+	text-align:left;
+}
+
+h3 {
+	margin-left:15px;
+}
+
+
+.button {
+	padding: 15px 30px;
+	margin:15px;
+	background-color:#EDF3FF;
+	width:180px;
+	border: 1px solid #E0ECFF;
+	overflow: hidden;
+	border-bottom-left-radius:25px;
+	border-bottom-right-radius:25px;
+	border-top-left-radius:25px;
+	border-top-right-radius:25px;
+	box-shadow: 5px 5px 5px #999;
+	cursor: pointer;
+	outline:none;
+}
+
+.button:hover {
+	background: -moz-linear-gradient(#ffb03c, #ff708d);
+    background: -webkit-linear-gradient(#ffb03c, #ff708d);
+    background: linear-gradient(to right, #ffb03c, #ff708d);
+    color: #FFF;
+	border: 1px solid #ffb03c;
+	box-shadow: 5px 5px 25px #999;
+
+}
+
+
+
+
+.button2 {
+	color:gray;
+	font-size:20px;
+	padding: 15px 30px;
+	background-color:#EDF3FF;
+	width:100%;
+	border-top: 1px dotted gray;
+	border-bottom:none;
+	border-left:none;
+	border-right:none;
+	cursor: pointer;
+
+}
