@@ -74,24 +74,20 @@
 			text-align:right;
 		}
 
+
+
 	</style>
 </head>
 <body>
-	<div id="header1">
-	 	<div id="pr1">
-	 	</div>
-	 	<div id="pr1">
-		</div>
-		<div id="pr1">
-		</div>
-		<div id="pr1">
-		</div>
+	<div class="header1">
+
 	</div>
-	<div id="header2">
-		<div id="pr2"></div>
-		<div id="pr2"></div>
-		<div id="pr2"></div>
-		<div id="pr2"></div>
+	<div class="header2">
+		<h1 class="title">GAMESTORE</h1>
+		<form class="search"action="ItemSearchAction">
+			<input type="text" name="searchName" maxlength="30" size="17" placeholder="検索">
+			<input type="submit" value="検索">
+		</form>
 	</div>
 	<div id="main">
 		<div id="top">
@@ -153,14 +149,7 @@
 					<li><a href='<s:url action="PutItemAction" />'><button class="button" type="submit">PUT</button></a></li>
 					<li><a href='<s:url action="ContactAction" />'><button class="button" type="submit">CONTACT</button></a></li>
 			</ul>
-		<h3></h3>
-			<ul>
-				<li><form action="ItemSearchAction">
-					<input type="text" name="searchName" maxlength="30" size="17" placeholder="検索">
-					<input type="submit" value="検索"></form>
-				</li>
-			</ul>
-		<h3>商品カテゴリー</h3>
+		<h3>商品カテゴリーから探す</h3>
 		<ul>
 			<li><a href='<s:url action="ItemCategoryAction"><s:param name="itemCategory" value="1"/></s:url>'><button class="button" type="submit">PS4</button></a></li>
 			<li><a href='<s:url action="ItemCategoryAction"><s:param name="itemCategory" value="2"/></s:url>'><button class="button" type="submit">PSVITA</button></a></li>

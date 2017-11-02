@@ -34,21 +34,15 @@
 	</style>
 </head>
 <body>
-	<div id="header1">
-	 	<div id="pr1">
-	 	</div>
-	 	<div id="pr1">
-		</div>
-		<div id="pr1">
-		</div>
-		<div id="pr1">
-		</div>
+	<div class="header1">
+
 	</div>
-	<div id="header2">
-		<div id="pr2"></div>
-		<div id="pr2"></div>
-		<div id="pr2"></div>
-		<div id="pr2"></div>
+	<div class="header2">
+		<h1 class="title">GAMESTORE</h1>
+		<form class="search"action="ItemSearchAction">
+			<input type="text" name="searchName" maxlength="30" size="17" placeholder="検索">
+			<input type="submit" value="検索">
+		</form>
 	</div>
 	<div id="main">
 		<div id="top">
