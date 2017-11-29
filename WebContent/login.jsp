@@ -129,10 +129,10 @@ margin-left:29px;
 	</div>
 	<div class="header2">
 		<h1 class="title">GAMESTORE</h1>
-		<form class="search"action="ItemSearchAction">
+<!-- 		<form class="search"action="ItemSearchAction">
 			<input type="text" name="searchName" maxlength="30" size="17" placeholder="検索">
 			<input type="submit" value="検索">
-		</form>
+		</form> -->
 	</div>
 	<div id="main">
 		<div id="top">
