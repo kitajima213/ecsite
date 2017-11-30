@@ -108,11 +108,6 @@
 			<result name="error">error.jsp</result>
 		</action>
 
-		<!-- ItemSearchAction -->
-		<action name="ItemSearchAction" class="com.internousdev.ecsite.action.ItemSearchAction" method="execute">
-			<result name="success">buyItemDetail.jsp</result>
-			<result name="error">searchError.jsp</result>
-		</action>
 
 		<!-- ItemCategoryAction -->
 		<action name="ItemCategoryAction" class="com.internousdev.ecsite.action.ItemCategoryAction" method="execute">
