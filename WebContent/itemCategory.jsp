@@ -145,21 +145,15 @@
 					<li><a href='<s:url action="PutItemAction" />'><button class="button" type="submit">PUT</button></a></li>
 					<li><a href='<s:url action="ContactAction" />'><button class="button" type="submit">CONTACT</button></a></li>
 			</ul>
-		<h3></h3>
+
+		<h3>商品カテゴリーから探す</h3>
 			<ul>
-				<li><form action="ItemSearchAction">
-					<input type="text" name="name" maxlength="30" size="17" placeholder="検索">
-					<input type="submit" value="検索"></form>
-				</li>
+				<li><a href='<s:url action="ItemCategoryAction"><s:param name="itemCategory" value="1"/></s:url>'><button class="button" type="submit">PS4</button></a></li>
+				<li><a href='<s:url action="ItemCategoryAction"><s:param name="itemCategory" value="2"/></s:url>'><button class="button" type="submit">PSVITA</button></a></li>
+				<li><a href='<s:url action="ItemCategoryAction"><s:param name="itemCategory" value="3"/></s:url>'><button class="button" type="submit">Switch</button></a></li>
+				<li><a href='<s:url action="ItemCategoryAction"><s:param name="itemCategory" value="4"/></s:url>'><button class="button" type="submit">Wiiu</button></a></li>
+				<li><a href='<s:url action="ItemCategoryAction"><s:param name="itemCategory" value="5"/></s:url>'><button class="button" type="submit">3ds</button></a></li>
 			</ul>
-		<h3>商品カテゴリー</h3>
-		<ul>
-			<li><a href='<s:url action="ItemCategoryAction"><s:param name="itemCategory" value="1"/></s:url>'><button class="button" type="submit">PS4</button></a></li>
-			<li><a href='<s:url action="ItemCategoryAction"><s:param name="itemCategory" value="2"/></s:url>'><button class="button" type="submit">PSVITA</button></a></li>
-			<li><a href='<s:url action="ItemCategoryAction"><s:param name="itemCategory" value="3"/></s:url>'><button class="button" type="submit">Switch</button></a></li>
-			<li><a href='<s:url action="ItemCategoryAction"><s:param name="itemCategory" value="4"/></s:url>'><button class="button" type="submit">Wiiu</button></a></li>
-			<li><a href='<s:url action="ItemCategoryAction"><s:param name="itemCategory" value="5"/></s:url>'><button class="button" type="submit">3ds</button></a></li>
-		</ul>
 
 		<h3></h3>
 
